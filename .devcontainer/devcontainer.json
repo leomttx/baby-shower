@@ -1,0 +1,12 @@
+{
+    "name": "Baby Shower devcontainer",
+    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-20",
+    "postCreateCommand": "npm install",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dracula-theme.theme-dracula"
+            ]
+        }
+    }
+}
